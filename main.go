@@ -75,7 +75,7 @@ func main() {
 	// --- TOOLS ---
 
 	mcpClient, err := client.NewStreamableHttpClient(
-		os.Getenv("MCP_HOST"), // Use environment variable for MCP host
+		os.Getenv("MCP_HOST_URL"), // Use environment variable for MCP host
 	)
 	//defer mcpClient.Close()
 	if err != nil {
