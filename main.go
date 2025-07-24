@@ -17,13 +17,6 @@ import (
 	"dm-agent/ui"
 )
 
-type Werewolf struct {
-	Health       float64
-	Strength     float64
-	Agility      float64
-	Intelligence float64
-}
-
 func main() {
 
 	ui.Println(ui.Blue, strings.Repeat("=", 80))
