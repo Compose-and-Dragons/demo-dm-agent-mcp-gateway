@@ -150,7 +150,7 @@ func main() {
 		GoodbyeMessage             string
 	}
 	promptConfig := PromptConfig{
-		StartingMessage:       "🐺 I'm an Werewolf",
+		StartingMessage:       "😄 I'm the Dungeon Master",
 		ExplanationMessage:    "Ask me anything about me. Type '/bye' to quit or Ctrl+C to interrupt responses.",
 		PromptTitle:           "✋ Query",
 		ThinkingPrompt:        "⏳",
